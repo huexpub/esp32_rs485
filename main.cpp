@@ -18,6 +18,11 @@
 // Pin# of the I²C IO signal for the Ethernet PHY
 #define ETH_MDIO_PIN 18
 static bool eth_connected = false;
+#define LED_BLINK 5
+
+//  IO15 IO2 IO14 IO12 RX TX 可用
+//POWER 6-18
+
 
 #include "ETH.h"
 #include <WiFiUdp.h>
