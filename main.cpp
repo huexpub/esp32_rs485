@@ -21,7 +21,7 @@ static bool eth_connected = false;
 #define LED_BLINK 5
 
 //  IO15 IO2 IO14 IO12 RX TX 可用
-//POWER 6-18
+//POWER dc in  6-18V
 
 
 #include "ETH.h"
